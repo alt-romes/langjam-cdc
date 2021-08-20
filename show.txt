@@ -1,0 +1,6 @@
+{- A -}
+main: (\x -> other) ola lol
+
+{- A A A -}
+other: llolol lol
+
