@@ -5,7 +5,7 @@ import qualified Text.Parsec.Token as P
 import Text.Parsec.Language (emptyDef)
 
 lexer = P.makeTokenParser $ emptyDef {
-    P.reservedNames = [],
+    P.reservedNames = ["main"],
     P.reservedOpNames = ["\\", "->", ":", "!", "#", "##"] 
                                      }
 parens = P.parens lexer

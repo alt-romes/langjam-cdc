@@ -1,8 +1,28 @@
-first: ## okay, i'm here ## !  
 
-second: ## composition baby ## !
 
-third: ## composition baby 2 ## !
+first:
+    ##
+    duration: 1
+    bg: red
+    font: x
+    font-color: green
+
+    okay,
+    i'm here 
+    ##
+    !
+
+
+second:
+    ##
+    composition baby
+    ## !
+
+
+third:
+    ##
+    composition baby 2
+    ## !
 
 
 
@@ -11,5 +31,4 @@ main:
     third 
     second
     !
-
 
