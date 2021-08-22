@@ -9,7 +9,7 @@ import Parser
 ---- Eval ----
 eval :: [Decl] -> Expr -> Expr
 eval _ (Commt s) = Commt s
-eval ds (Presentation s) = undefined
+eval ds (Presentation s) = error $ show ds ++ show s
 ---- ---- ----
 
 
