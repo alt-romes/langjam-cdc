@@ -1,3 +1,9 @@
+This is a very simple language that when interpreted displays in a graphical window the composition done in the main function.
+_This project was a submission to [langjam](https://github.com/langjam/langjam)._
+
+![show](https://raw.githubusercontent.com/alt-romes/langjam-cdc/master/show.gif)
+
+
 A comment is given a name and a body with the syntax:
 ```
 # identifier1 #
